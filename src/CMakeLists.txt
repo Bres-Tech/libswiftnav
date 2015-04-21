@@ -34,6 +34,7 @@ set(libswiftnav_SRCS
   sats_management.c
   ambiguity_test.c
   printing_utils.c
+  filter_utils.c
 )
 
 add_library(swiftnav-static STATIC ${libswiftnav_SRCS})
